@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="XLW6j60ia9iWfnrp3cyY" name="Casos de uso">
+    <mxGraphModel dx="2586" dy="998" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-33" parent="1" style="rounded=1;arcSize=3;html=1;whiteSpace=wrap;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;fontColor=#1F2A44;fontSize=13;fillColor=#FBFAF7;strokeColor=#1F2A44;strokeWidth=2;verticalAlign=top;align=left;spacingLeft=18;spacingTop=10;fontSize=18;fontStyle=1;" value="Chatbot" vertex="1">
+          <mxGeometry height="880" width="600" x="787.2999649047852" y="574.7000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-34" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;whiteSpace=wrap;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;fontColor=#1F2A44;fontSize=13;fillColor=#E3F2EF;strokeColor=#0F766E;strokeWidth=2;fontStyle=1;" value="Usuário" vertex="1">
+          <mxGeometry height="66" width="34" x="669.2999649047852" y="740.7000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-35" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;whiteSpace=wrap;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;fontColor=#1F2A44;fontSize=13;fillColor=#FDF0E1;strokeColor=#B45309;strokeWidth=2;fontStyle=1;" value="Curador" vertex="1">
+          <mxGeometry height="66" width="34" x="669.2999649047852" y="1160.7000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-36" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;whiteSpace=wrap;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;fontColor=#1F2A44;fontSize=13;fillColor=#EFEAFB;strokeColor=#6D28D9;strokeWidth=2;fontStyle=1;" value="Serviço de IA" vertex="1">
+          <mxGeometry height="66" width="34" x="1485.2999649047852" y="780.7000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-37" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;fontColor=#1F2A44;fontSize=13;fontSize=11;fontColor=#6D28D9;fontStyle=2;" value="sistema externo" vertex="1">
+          <mxGeometry height="20" width="90" x="1455.4999923706055" y="754.7" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-38" parent="1" style="ellipse;html=1;whiteSpace=wrap;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;fontColor=#1F2A44;fontSize=13;fillColor=#E3F2EF;strokeColor=#0F766E;strokeWidth=1.5;" value="Iniciar conversa" vertex="1">
+          <mxGeometry height="64" width="180" x="827.2999649047852" y="634.7000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-39" parent="1" style="ellipse;html=1;whiteSpace=wrap;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;fontColor=#1F2A44;fontSize=13;fillColor=#E3F2EF;strokeColor=#0F766E;strokeWidth=1.5;" value="Fazer pergunta" vertex="1">
+          <mxGeometry height="64" width="180" x="827.2999649047852" y="754.7000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-40" parent="1" style="ellipse;html=1;whiteSpace=wrap;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;fontColor=#1F2A44;fontSize=13;fillColor=#E3F2EF;strokeColor=#0F766E;strokeWidth=1.5;" value="Avaliar resposta" vertex="1">
+          <mxGeometry height="64" width="180" x="827.2999649047852" y="874.7000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-41" parent="1" style="ellipse;html=1;whiteSpace=wrap;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;fontColor=#1F2A44;fontSize=13;fillColor=#F1F2F4;strokeColor=#64748B;strokeWidth=1.5;" value="Buscar trechos relevantes" vertex="1">
+          <mxGeometry height="64" width="180" x="1157.2999649047852" y="664.7000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-42" parent="1" style="ellipse;html=1;whiteSpace=wrap;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;fontColor=#1F2A44;fontSize=13;fillColor=#F1F2F4;strokeColor=#64748B;strokeWidth=1.5;" value="Gerar resposta com fontes" vertex="1">
+          <mxGeometry height="64" width="180" x="1157.2999649047852" y="784.7000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-43" parent="1" style="ellipse;html=1;whiteSpace=wrap;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;fontColor=#1F2A44;fontSize=13;fillColor=#FCE7F0;strokeColor=#BE185D;strokeWidth=1.5;dashed=1;dashPattern=1 3;" value="Avisar que não encontrou a informação" vertex="1">
+          <mxGeometry height="72" width="180" x="1157.2999649047852" y="914.7000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-44" parent="1" style="ellipse;html=1;whiteSpace=wrap;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;fontColor=#1F2A44;fontSize=13;fillColor=#FDF0E1;strokeColor=#B45309;strokeWidth=1.5;" value="Enviar documento" vertex="1">
+          <mxGeometry height="64" width="180" x="827.2999649047852" y="1054.7000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-45" parent="1" style="ellipse;html=1;whiteSpace=wrap;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;fontColor=#1F2A44;fontSize=13;fillColor=#FDF0E1;strokeColor=#B45309;strokeWidth=1.5;" value="Reprocessar documento com falha" vertex="1">
+          <mxGeometry height="72" width="180" x="827.2999649047852" y="1159.7000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-46" parent="1" style="ellipse;html=1;whiteSpace=wrap;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;fontColor=#1F2A44;fontSize=13;fillColor=#FDF0E1;strokeColor=#B45309;strokeWidth=1.5;" value="Acompanhar situação dos documentos" vertex="1">
+          <mxGeometry height="72" width="180" x="827.2999649047852" y="1264.7000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-47" parent="1" style="ellipse;html=1;whiteSpace=wrap;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;fontColor=#1F2A44;fontSize=13;fillColor=#FDF0E1;strokeColor=#B45309;strokeWidth=1.5;" value="Remover documento" vertex="1">
+          <mxGeometry height="64" width="180" x="827.2999649047852" y="1369.7000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-48" parent="1" style="ellipse;html=1;whiteSpace=wrap;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;fontColor=#1F2A44;fontSize=13;fillColor=#F1F2F4;strokeColor=#64748B;strokeWidth=1.5;" value="Processar documento" vertex="1">
+          <mxGeometry height="64" width="180" x="1157.2999649047852" y="1109.7000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-49" edge="1" parent="1" source="q_3n4BoeWxdC-XlTkBhK-34" style="endArrow=none;html=1;strokeColor=#1F2A44;strokeWidth=1.5;" target="q_3n4BoeWxdC-XlTkBhK-38" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-50" edge="1" parent="1" source="q_3n4BoeWxdC-XlTkBhK-34" style="endArrow=none;html=1;strokeColor=#1F2A44;strokeWidth=1.5;" target="q_3n4BoeWxdC-XlTkBhK-39" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-51" edge="1" parent="1" source="q_3n4BoeWxdC-XlTkBhK-34" style="endArrow=none;html=1;strokeColor=#1F2A44;strokeWidth=1.5;" target="q_3n4BoeWxdC-XlTkBhK-40" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-52" edge="1" parent="1" source="q_3n4BoeWxdC-XlTkBhK-35" style="endArrow=none;html=1;strokeColor=#1F2A44;strokeWidth=1.5;" target="q_3n4BoeWxdC-XlTkBhK-44" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-53" edge="1" parent="1" source="q_3n4BoeWxdC-XlTkBhK-35" style="endArrow=none;html=1;strokeColor=#1F2A44;strokeWidth=1.5;" target="q_3n4BoeWxdC-XlTkBhK-45" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-54" edge="1" parent="1" source="q_3n4BoeWxdC-XlTkBhK-35" style="endArrow=none;html=1;strokeColor=#1F2A44;strokeWidth=1.5;" target="q_3n4BoeWxdC-XlTkBhK-46" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-55" edge="1" parent="1" source="q_3n4BoeWxdC-XlTkBhK-35" style="endArrow=none;html=1;strokeColor=#1F2A44;strokeWidth=1.5;" target="q_3n4BoeWxdC-XlTkBhK-47" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-56" edge="1" parent="1" source="q_3n4BoeWxdC-XlTkBhK-42" style="endArrow=none;html=1;strokeColor=#1F2A44;strokeWidth=1.5;" target="q_3n4BoeWxdC-XlTkBhK-36" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-57" edge="1" parent="1" source="q_3n4BoeWxdC-XlTkBhK-39" style="endArrow=open;endSize=12;dashed=1;dashPattern=6 4;html=1;strokeColor=#64748B;strokeWidth=1.5;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;fontColor=#64748B;fontSize=12;labelBackgroundColor=#FBFAF7;" target="q_3n4BoeWxdC-XlTkBhK-41" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-58" edge="1" parent="1" source="q_3n4BoeWxdC-XlTkBhK-39" style="endArrow=open;endSize=12;dashed=1;dashPattern=6 4;html=1;strokeColor=#64748B;strokeWidth=1.5;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;fontColor=#64748B;fontSize=12;labelBackgroundColor=#FBFAF7;" target="q_3n4BoeWxdC-XlTkBhK-42" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-59" edge="1" parent="1" source="q_3n4BoeWxdC-XlTkBhK-43" style="endArrow=open;endSize=12;dashed=1;dashPattern=6 4;html=1;strokeColor=#BE185D;strokeWidth=1.5;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;fontColor=#BE185D;fontSize=12;labelBackgroundColor=#FBFAF7;" target="q_3n4BoeWxdC-XlTkBhK-39" value="«extend»&lt;br&gt;[nenhum trecho relevante]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-60" edge="1" parent="1" source="q_3n4BoeWxdC-XlTkBhK-44" style="endArrow=open;endSize=12;dashed=1;dashPattern=6 4;html=1;strokeColor=#64748B;strokeWidth=1.5;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;fontColor=#64748B;fontSize=12;labelBackgroundColor=#FBFAF7;" target="q_3n4BoeWxdC-XlTkBhK-48" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-61" edge="1" parent="1" source="q_3n4BoeWxdC-XlTkBhK-45" style="endArrow=open;endSize=12;dashed=1;dashPattern=6 4;html=1;strokeColor=#64748B;strokeWidth=1.5;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;fontColor=#64748B;fontSize=12;labelBackgroundColor=#FBFAF7;" target="q_3n4BoeWxdC-XlTkBhK-48" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-62" parent="1" style="ellipse;html=1;whiteSpace=wrap;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;fontColor=#1F2A44;fontSize=13;fillColor=#FCE7F0;strokeColor=#BE185D;strokeWidth=1.5;dashed=1;dashPattern=1 3;" value="Bloquear documento" vertex="1">
+          <mxGeometry height="64" width="180" x="1157.2999649047852" y="1254.5" as="geometry" />
+        </mxCell>
+        <mxCell id="q_3n4BoeWxdC-XlTkBhK-63" edge="1" parent="1" source="q_3n4BoeWxdC-XlTkBhK-62" style="endArrow=open;endSize=12;dashed=1;dashPattern=6 4;html=1;strokeColor=#BE185D;strokeWidth=1.5;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;fontColor=#BE185D;fontSize=12;labelBackgroundColor=#FBFAF7;" target="q_3n4BoeWxdC-XlTkBhK-45" value="«extend»&lt;br&gt;[3ª tentativa sem sucesso]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
