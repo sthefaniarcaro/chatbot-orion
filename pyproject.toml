@@ -1,0 +1,10 @@
+[project]
+name = "assistente-de-duvidas"
+version = "0.1.0"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+# importlib permite testes com o mesmo nome de arquivo em pastas diferentes
+addopts = "--import-mode=importlib"

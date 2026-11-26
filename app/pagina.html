@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assistente de dúvidas</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; color: #1a1a1a; }
+  h1 { font-size: 1.6rem; }
+  #conversa { border: 1px solid #ccc; border-radius: 8px; min-height: 240px; padding: 1rem; background: #fafafa; }
+  form { display: flex; gap: .5rem; margin-top: 1rem; }
+  input { flex: 1; padding: .6rem; font-size: 1rem; }
+  button { padding: .6rem 1.2rem; font-size: 1rem; }
+  .aviso { color: #666; font-size: .9rem; }
+</style>
+</head>
+<body>
+<h1>Assistente de dúvidas</h1>
+<div id="conversa">
+  <p class="aviso">O assistente ainda não responde: a pergunta e a busca entram na aula 8.</p>
+</div>
+<form>
+  <input type="text" placeholder="Digite sua pergunta" aria-label="Pergunta" disabled>
+  <button type="submit" disabled>Enviar</button>
+</form>
+</body>
+</html>
